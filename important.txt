@@ -1,0 +1,10 @@
+bg- #27222d
+bg-2- #231d2a
+bg-3- # #3b3c3c
+
+btn-gf # #f4af28
+btn-gl # #fedc86
+
+highlight - # #625f6b
+highlight - # # #adabb1
+

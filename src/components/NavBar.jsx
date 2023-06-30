@@ -8,7 +8,7 @@ import "./buttons.css";
 
 const NavBar = () => {
   return (
-    <div className="bg-primary text-slate-900 py-2">
+    <div className="bg-primary md:bg-transparent text-slate-100 py-2">
       <div className="navbar  container mx-auto">
         <>
           <div className="navbar-start">
@@ -20,9 +20,6 @@ const NavBar = () => {
                 tabIndex={0}
                 className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 text-slate-900 rounded-box  w-52"
               >
-                <li>
-                  <Link to={"/tokenomics"}>Tokenomics</Link>
-                </li>
                 <li tabIndex={0}>
                   <a className="justify-between">
                     Solutions
@@ -30,10 +27,19 @@ const NavBar = () => {
                   </a>
                   <ul className="p-2 bg-base-300 text-slate-700">
                     <li>
-                      <Link to={"/greengpt"}>GreenGPT Beta</Link>
+                      <Link to={"/greengpt"}>Smartcontract Development</Link>
                     </li>
                     <li>
-                      <Link to={"/a2e"}>Ask to Earn</Link>
+                      <Link to={"/a2e"}>DApp Development</Link>
+                    </li>
+                    <li>
+                      <Link to={"/a2e"}>Smartcontract Audit</Link>
+                    </li>
+                    <li>
+                      <Link to={"/a2e"}>Mobile App Development</Link>
+                    </li>
+                    <li>
+                      <Link to={"/a2e"}>Blockchain Development</Link>
                     </li>
                   </ul>
                 </li>
@@ -61,7 +67,7 @@ const NavBar = () => {
                   </a>
                   <ul className="p-2 bg-base-300 text-slate-700 shadow-md">
                     <li>
-                      <Link to={"/stake"}>Stake $gGPT</Link>
+                      <Link to={"/stake"}>Stake Pools</Link>
                     </li>
                     <li>
                       <Link to={"/stake"}>Stake NFT</Link>
@@ -72,7 +78,7 @@ const NavBar = () => {
                   <a href="#faqs">FAQs</a>
                 </li>
                 <li>
-                  <Web3Button className="bg-green-500" />
+                  <Web3Button className="bg-primary" />
                 </li>
               </ul>
             </div>
@@ -81,8 +87,8 @@ const NavBar = () => {
               className="md:flex justify-center items-center hidden"
             >
               <img src={Logo} alt="logo" className="w-10 h-10" />
-              <h1 className="normal-case text-2xl font-bold tracking-wide text-slate-900">
-                GreenGPT
+              <h1 className="normal-case text-2xl font-bold tracking-wide text-slate-100">
+                SafeCode
               </h1>
             </Link>
           </div>
@@ -92,16 +98,25 @@ const NavBar = () => {
                 <Link to={"/tokenomics"}>Tokenomics</Link>
               </li>
               <li tabIndex={0}>
-                <a>
+                <a className="justify-between">
                   Solutions
                   <FiChevronDown className="font-bold" />
                 </a>
                 <ul className="p-2 bg-base-300 text-slate-700">
                   <li>
-                    <Link to={"/greengpt"}>GreenGPT Beta</Link>
+                    <Link to={"/greengpt"}>Smartcontract Development</Link>
                   </li>
                   <li>
-                    <Link to={"/a2e"}>Ask to Earn</Link>
+                    <Link to={"/a2e"}>DApp Development</Link>
+                  </li>
+                  <li>
+                    <Link to={"/a2e"}>Smartcontract Audit</Link>
+                  </li>
+                  <li>
+                    <Link to={"/a2e"}>Mobile App Development</Link>
+                  </li>
+                  <li>
+                    <Link to={"/a2e"}>Blockchain Development</Link>
                   </li>
                 </ul>
               </li>
@@ -157,7 +172,7 @@ const NavBar = () => {
             >
               <img src={Logo} alt="logo" className="w-10 h-10" />
               <h1 className="normal-case text-2xl font-bold tracking-wide pr-3 text-slate-900">
-                GreenGPT
+                SafeCode
               </h1>
             </Link>
           </div>

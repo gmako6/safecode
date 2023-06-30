@@ -8,47 +8,43 @@ const Metrics = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 content-center gap-20">
           <div className="grid col-span-2 text-slate-900">
             <div className="">
-              <h5 className="font-bold md:text-4xl text-2xl text-center md:text-start">
-                Auto-reward Contracting.
+              <h5 className="font-bold italic md:text-5xl text-2xl text-center md:text-start">
+                Have an Idea in mind...?
               </h5>
-              <p className="md:text-lg md:mt-10 mt-5 text-justify md:text-start">
-                GreenGPT contract takes 2% of tokens which are automatically
-                distributed to holders in $cGPT Token, 2% goes to a CEX listing
-                wallet. Additionally, 1% of the tokens are added to liquidty
-                pool automatically. This mechanism incentivizes holding tokens
-                while also increasing their scarcity, potentially leading to a
-                rise in their value over time.
+              <p className="md:text-2xl md:mt-10 mt-5 text-justify md:text-start">
+                If you have an idea that can be brought to life using blockchain
+                technology, you’re not alone. We work hand in hand with
+                companies to create long-lasting solutions that enhance your
+                current organization through blockchain technology.
               </p>
               <div className="flex md:justify-start justify-center items-center space-x-3 md:mt-10 mt-5">
-                <button className="btn btn-primary rounded-full space-1">
-                  Bsc scan
-                </button>
                 <Link
                   to={"/stake"}
                   className="btn btn-primary rounded-full space-1"
                 >
-                  Buy SeedNFT
+                  Let's Talk
                 </Link>
               </div>
             </div>
           </div>
           <div>
             <div className="stats stats-horizontal lg:stats-vertical shadow">
-              <div className="stat hidden md:block">
-                <div className="stat-title">$gGPT Holding</div>
-                <div className="stat-value animate-pulse bg-slate-300 h-10"></div>
-                {/*  <div className="stat-desc">~ $10,000</div>**/}
+              <div className="stat">
+                <div className="stat-title">Project Impacts</div>
+                <div className="stat-value h-10">46+</div>
+                <div className="stat-desc">~ $600,000</div>
               </div>
 
               <div className="stat">
-                <div className="stat-title">Total Burned</div>
-                <div className="stat-value animate-pulse bg-slate-300 h-10"></div>
+                <div className="stat-title">Lines of Code</div>
+                <div className="stat-value h-10">18M+</div>
+                <div className="stat-desc">↘︎ 90 (14%)</div>
               </div>
 
               <div className="stat">
-                <div className="stat-title">Total Rewards</div>
-                <div className="stat-value animate-pulse bg-slate-300 h-10"></div>
-                {/*    <div className="stat-desc">↘︎ 90 (14%)</div>**/}
+                <div className="stat-title">Devs & Designers</div>
+                <div className="stat-value h-10">18M+</div>
+                <div className="stat-desc">↘︎ 90 (14%)</div>
               </div>
             </div>
           </div>
